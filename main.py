@@ -3,9 +3,6 @@ import time
 import psutil
 import datetime
 
-test = False
-
-
 def kill_process(name):
     for proc in psutil.process_iter():
         # check whether the process name matches
